@@ -1,0 +1,28 @@
+# React Native - Modal Exercise
+
+Tämä on Oulu University of Applied Sciences (OAMK) -koulutusohjelman React Native -kurssin Modal-tehtävä. Sovellus on toteutettu TypeScriptillä ja Expo-alustalla.
+
+## Tehtävän kuvaus
+
+Sovellus demonstroi `Modal`- ja `Pressable`-komponenttien käyttöä:
+- Aloitusruudussa on *"Show modal message"* -painike.
+- Painiketta painamalla avautuu modaali-ikkuna, jossa näkyy teksti *"This is modal..."*.
+- Modaisn voi sulkea "Close modal" -painikkeella tai Androidin omalla fyysisellä takanapilla (`onRequestClose`).
+
+## Teknologiat
+
+- React Native
+- Expo
+- TypeScript
+
+## Asennus ja käynnistys
+
+Varmista, että koneellasi on asennettuna Node.js ja Expo Go -sovellus puhelimessasi (tai emulaattori).
+
+1. Kloonaa tai pura projekti omalle koneellesi.
+2. Siirry projektin kansioon terminaalissa ja asenna riippuvuudet:
+   ```bash
+   npm install
+   npx expo start
+   
+Skannaa terminaaliin ilmestyvä QR-koodi puhelimen Expo Go -sovelluksella tai aja se emulaattorissa
